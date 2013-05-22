@@ -1,0 +1,328 @@
+<?xml version="1.0" ?>
+<config>
+    <services>
+        <smsgateway />
+        <emailserver />
+        <xmlserver type="inet" port="1028" />
+        <knxconnection url="ip:127.0.0.1" />
+        <exceptiondays>
+            <date day="1" month="1" />
+            <date day="1" month="5" />
+            <date day="15" month="8" />
+            <date day="25" month="12" />
+            <date day="25" month="4" year="2011" />
+            <date day="2" month="6" year="2011" />
+            <date day="13" month="6" year="2011" />
+            <date day="9" month="4" year="2012" />
+            <date day="17" month="5" year="2012" />
+            <date day="28" month="5" year="2012" />
+            <date day="1" month="4" year="2013" />
+            <date day="9" month="5" year="2013" />
+            <date day="20" month="5" year="2013" />
+            <date day="21" month="4" year="2014" />
+            <date day="29" month="5" year="2014" />
+            <date day="9" month="6" year="2014" />
+        </exceptiondays>
+        <ioports />
+    </services>
+    <objects>
+        <object type="5.001" id="A201-OUT1-R-P" gad="10/1/3" init="request" flags="crtu">A201-OUT1-R-P</object>
+        <object type="1.001" id="A201-OUT1-RW-B" gad="10/1/4" init="on" flags="crwtu">A201-OUT1-RW-B</object>
+        <object type="5.001" id="A201-OUT1-RW-P" gad="10/1/2" init="100">A201-OUT1-RW-P</object>
+        <object type="3.007" id="A201-OUT1-W-C" gad="10/1/1" init="request">A201-OUT1-W-C</object>
+        <object type="5.001" id="A201-OUT2-R-P" gad="10/1/7" init="request" flags="crtu">A201-OUT2-R-P</object>
+        <object type="1.001" id="A201-OUT2-RW-B" gad="10/1/8" init="on" flags="crwtu">A201-OUT2-RW-B</object>
+        <object type="5.001" id="A201-OUT2-RW-P" gad="10/1/6" init="100">A201-OUT2-RW-P</object>
+        <object type="3.007" id="A201-OUT2-W-C" gad="10/1/5" init="request">A201-OUT2-W-C</object>
+        <object type="5.001" id="A202-OUT1-R-P" gad="10/2/3" init="request" flags="crtu">A202-OUT1-R-P</object>
+        <object type="1.001" id="A202-OUT1-RW-B" gad="10/2/4" init="request" flags="crwtu">A202-OUT1-RW-B</object>
+        <object type="5.001" id="A202-OUT1-RW-P" gad="10/2/2" init="request">A202-OUT1-RW-P</object>
+        <object type="3.007" id="A202-OUT1-W-C" gad="10/2/1" init="request">A202-OUT1-W-C</object>
+        <object type="5.001" id="A202-OUT2-R-P" gad="10/2/7" init="request" flags="crtu">A202-OUT2-R-P</object>
+        <object type="1.001" id="A202-OUT2-RW-B" gad="10/2/8" init="request" flags="crwtu">A202-OUT2-RW-B</object>
+        <object type="5.001" id="A202-OUT2-RW-P" gad="10/2/6" init="request">A202-OUT2-RW-P</object>
+        <object type="3.007" id="A202-OUT2-W-C" gad="10/2/5" init="request">A202-OUT2-W-C</object>
+        <object type="1.001" id="A401-IN1-R-B" gad="1/2/1" init="request">A401-IN1-R-B</object>
+        <object type="1.001" id="A401-IN2-R-B" gad="1/2/2" init="request">A401-IN2-R-B</object>
+        <object type="1.001" id="A401-IN3-R-B" gad="1/2/3" init="request">A401-IN3-R-B</object>
+        <object type="1.001" id="A401-IN4-R-B" gad="1/2/4" init="request">A401-IN4-R-B</object>
+        <object type="1.001" id="A402-OUT1-RW-B" gad="10/3/1" init="request">A402-OUT1-RW-B</object>
+        <object type="1.001" id="A402-OUT1-RW2-B" gad="10/3/2" init="request">A402-OUT1-RW2-B</object>
+        <object type="1.001" id="A402-OUT2-RW-B" gad="10/3/3" init="request">A402-OUT2-RW-B</object>
+        <object type="1.001" id="A402-OUT2-RW2-B" gad="10/3/4" init="request">A402-OUT2-RW2-B</object>
+        <object type="1.001" id="A501-IN1-R-B" gad="1/3/1" init="request">A501-IN1-R-B</object>
+        <object type="1.001" id="A501-IN2-R-B" gad="1/3/2" init="request">A501-IN2-R-B</object>
+        <object type="1.001" id="A501-IN3-R-B" gad="1/3/3" init="request">A501-IN3-R-B</object>
+        <object type="1.001" id="A501-IN4-R-B" gad="1/3/4" init="request">A501-IN4-R-B</object>
+        <object type="1.001" id="A502-IN1-R-B" gad="1/4/1" init="request">A502-IN1-R-B</object>
+        <object type="1.001" id="A502-IN2-R-B" gad="1/4/2" init="request">A502-IN2-R-B</object>
+        <object type="1.001" id="A502-IN3-R-B" gad="1/4/3" init="request">A502-IN3-R-B</object>
+        <object type="1.001" id="A502-IN4-R-B" gad="1/4/4" init="request">A502-IN4-R-B</object>
+        <object type="1.001" id="A503-OUT1-RW-B" gad="10/4/1" init="request">A503-OUT1-RW-B</object>
+        <object type="1.001" id="A503-OUT1-RW2-B" gad="10/4/2" init="request">A503-OUT1-RW2-B</object>
+        <object type="1.001" id="A503-OUT2-RW-B" gad="10/4/3" init="request">A503-OUT2-RW-B</object>
+        <object type="1.001" id="A503-OUT2-RW2-B" gad="10/4/4" init="request">A503-OUT2-RW2-B</object>
+        <object type="1.001" id="A801-OUT1-RW-B" gad="10/5/1" init="request">A801-OUT1-RW-B</object>
+        <object type="1.001" id="A801-OUT1-RW2-B" gad="10/5/2" init="request">A801-OUT1-RW2-B</object>
+        <object type="1.001" id="A801-OUT2-RW-B" gad="10/5/3" init="request">A801-OUT2-RW-B</object>
+        <object type="1.001" id="A801-OUT2-RW2-B" gad="10/5/4" init="request">A801-OUT2-RW2-B</object>
+        <object type="11.001" id="cur_date" gad="1/1/201" flags="cwtus">Current Date</object>
+        <object type="10.001" id="cur_time" gad="1/1/200">Current Time</object>
+        <object type="1.001" id="lichtloop" init="request">lichtloop</object>
+        <object type="1.001" id="lichtloop2" init="request">lichtloop2</object>
+        <object type="1.001" id="doorloolopenbutton" init="request">doorloolopenbutton</object>
+  <object type="1.001" id="doordrucklosbutton" init="request">doordrucklosbutton</object>
+	<object type="5.001" id="lightsave" init="request">lightsave</object>
+	<object type="1.001" id="doorprogramm" init="request">doorprogramm</object>
+	<object type="1.001" id="varlicht1000" init="request">varlicht1000</object>
+	<object type="1.001" id="varlicht0100" init="request">varlicht0100</object>
+	<object type="1.001" id="varlicht0010" init="request">varlicht0010</object>
+	<object type="1.001" id="varlicht0001" init="request">varlicht0001</object>
+	<object type="5.001" id="varlichtsoll" init="request">varlichtsoll</object>
+	<object type="1.001" id="varlicht_dimmen" init="request">varlicht_dimmen</object>
+	<object type="1.001" id="varlicht_loopen" init="request">varlicht_loopen</object>
+    </objects>
+    <rules>
+        <rule id="doordrucklos">
+		 <condition type="object" id="doordrucklosbutton" value="on" trigger="true" />
+            		<actionlist type="if-true" >
+            		    <action type="set-value" id="A402-OUT1-RW2-B" value="off" />
+            		    <action type="set-value" id="A402-OUT1-RW2-B" value="on" delay="1" />
+            		    <action type="set-value" id="doordrucklosbutton" value="off" />
+           		 </actionlist>
+	</rule>
+        <rule id="dooropen_steuerprogramm">
+            <condition type="object" id="A401-IN1-R-B" value="on" trigger="true" />
+            <condition type="object" id="A401-IN1-R-B" value="off" trigger="false" />
+             <actionlist type="if-true">
+              <action type="cancel" rule-id="dooropen_ablauf" />
+ 	      <action type="set-value" id="doorprogramm" value="on" delay="2ms" />
+             </actionlist>
+
+             <actionlist type="if-false">
+              <action type="cancel" rule-id="dooropen_ablauf" />
+ 	      <action type="set-value" id="doorprogramm" value="off" />
+             </actionlist>
+        </rule>
+        <rule id="dooropen_ablauf">
+            <condition type="object" id="doorprogramm" value="on" trigger="true" />
+            <condition type="object" id="doorprogramm" value="off" trigger="false" />
+             <actionlist type="if-true">
+                <action type="set-value" id="A402-OUT1-RW-B" value="on" />
+             </actionlist>
+             <actionlist type="if-false">
+                <action type="set-value" id="A402-OUT1-RW-B" value="off"  delay="7000ms"  />
+            	<action type="set-value" id="A402-OUT1-RW2-B" value="off" delay="15000ms" />
+            	<action type="set-value" id="A402-OUT1-RW2-B" value="on" delay="16000ms" />
+             </actionlist>
+        </rule>
+
+
+        <rule id="doorloolopen">
+            <condition type="object" id="doorloolopenbutton" value="on" trigger="true" />
+            <actionlist type="if-true">
+                <action type="set-value" id="A402-OUT1-RW-B" value="on" />
+                <action type="set-value" id="A402-OUT1-RW-B" value="off" delay="1500ms" />
+		<action type="set-value" id="doorloolopenbutton" value="off" delay="1500ms" />
+            </actionlist>
+        </rule>
+        <rule id="lichtaus">
+            <condition type="object" id="A401-IN4-R-B" value="off" trigger="true" />
+            <actionlist type="if-true">
+                <action type="set-value" id="A201-OUT1-RW-P" value="0" />
+            </actionlist>
+        </rule>
+        <rule id="lichtein">
+            <condition type="object" id="A401-IN4-R-B" value="on" trigger="true" />
+            <actionlist type="if-true">
+                <action type="set-value" id="A201-OUT1-RW-P" value="100" />
+            </actionlist>
+        </rule>
+		
+		<!--
+        <rule id="lichtloop1">
+            <condition type="object" id="lichtloop" value="on" trigger="true" />
+            <actionlist>
+                <action type="repeat" period="1" count="99999999">
+                    <action type="set-value" id="A201-OUT1-RW-P" value="6.67" />
+                    <action type="set-value" id="A201-OUT1-RW-P" value="100" delay="500ms" />
+                </action>
+            </actionlist>
+        </rule>
+        <rule id="lichtloopoff">
+            <condition type="object" id="lichtloop" value="off" trigger="true" />
+            <actionlist>
+                <action type="cancel" rule-id="lichtloop1" />
+                <action type="set-value" id="A201-OUT1-RW-P" value="100" />
+                <action type="set-value" id="lichtloop" value="off" />
+                <action type="set-value" id="lichtloop2" value="off" />
+            </actionlist>
+        </rule>
+        <rule id="lichtloopoff1">
+            <condition type="object" id="lichtloop2" value="on" trigger="true" />
+            <actionlist>
+                <action type="cancel" rule-id="lichtloop1" />
+                <action type="set-value" id="A201-OUT1-RW-P" value="100" />
+                <action type="set-value" id="lichtloop" value="off" />
+                <action type="set-value" id="lichtloop2" value="off" />
+            </actionlist>
+        </rule>
+		-->
+		
+
+		<rule id="lichtloopo_0-1">
+			<condition type="and">
+				<condition type="object" id="lichtloop" value="on" trigger="true" />
+				<condition type="object" id="lichtloop2" value="off" trigger="true" />
+			</condition>			
+            <actionlist type="if-true">
+                		<action type="set-value" id="A201-OUT1-RW-P" value="1" />
+                		<action type="set-value" id="A201-OUT1-RW-P" value="100" delay="500ms" />
+				<action type="set-value" id="lichtloop2" value="on" delay="500ms" />
+            </actionlist>
+        </rule>
+
+		<rule id="lichtloopo_1-0">
+			<condition type="and">
+				<condition type="object" id="lichtloop" value="on" trigger="true" />
+				<condition type="object" id="lichtloop2" value="on"  trigger="true"/>
+			</condition>
+            <actionlist type="if-true">
+                		<action type="set-value" id="A201-OUT1-RW-P" value="1" delay="500ms" />
+				<action type="set-value" id="lichtloop2" delay="500ms" value="off" />
+            </actionlist>
+        </rule>		
+        <rule id="lichtloopoff1">
+            <condition type="object" id="lichtloop" value="off" trigger="true" />
+            <actionlist>
+			    	<action type="cancel" rule-id="lichtloopo_1-0" />
+				<action type="cancel" rule-id="lichtloopo_0-1" />
+                <action type="set-value" id="A201-OUT1-RW-P" value="100" />
+				<action type="set-value" id="lichtloop2" value="off" />
+            </actionlist>
+        </rule>
+		
+
+
+
+        <rule id="licht_dimmen_ablauf1000">
+				<condition type="object" id="varlicht_dimmen" value="on" trigger="true" />
+            <actionlist type="if-true">
+				<action type="set-value" id="varlicht_loopen" value="off" />
+				<action type="cancel" rule-id="licht_loopen_ablauf1000" />
+				<action type="cancel" rule-id="licht_loopen_ablauf0100" />
+				<action type="cancel" rule-id="licht_loopen_ablauf0010" />
+				<action type="cancel" rule-id="licht_loopen_ablauf0001" />
+				<action type="set-value" id="varlicht0100" value="off" />
+				<action type="set-value" id="varlicht0010" value="off" />
+				<action type="set-value" id="varlicht0001" value="off" />
+                		<action type="copy-value" from="varlichtsoll" to="A202-OUT2-RW-P" delay="20ms" />
+				<action type="set-value" id="varlicht0100" delay="300ms" value="on" />
+
+            </actionlist>
+        </rule>
+		
+        <rule id="licht_dimmen_ablauf0100">
+				<condition type="and">
+				<condition type="object" id="varlicht0100" value="on" trigger="true" />
+				<condition type="object" id="varlicht_dimmen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="copy-value" from="varlichtsoll" to="A202-OUT1-RW-P" />
+				<action type="set-value" id="varlicht0010" delay="200ms" value="on" />
+				<action type="set-value" id="varlicht0100" delay="200ms" value="off" />
+            </actionlist>
+        </rule>
+
+        <rule id="licht_dimmen_ablauf0010">
+				<condition type="and">
+				<condition type="object" id="varlicht0010" value="on" trigger="true" />
+				<condition type="object" id="varlicht_dimmen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="copy-value" from="varlichtsoll" to="A201-OUT2-RW-P" />
+				<action type="set-value" id="varlicht0001" delay="200ms" value="on" />
+				<action type="set-value" id="varlicht0010" delay="200ms" value="off" />
+            </actionlist>
+        </rule>
+
+        <rule id="licht_dimmen_ablauf0001">
+				<condition type="and">
+				<condition type="object" id="varlicht0001" value="on" trigger="true" />
+				<condition type="object" id="varlicht_dimmen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="copy-value" from="varlichtsoll" to="A201-OUT1-RW-P" />
+				<action type="set-value" id="varlicht0001" delay="200ms" value="off" />
+				<action type="set-value" id="varlicht_dimmen" delay="200ms" value="off" />
+            </actionlist>
+        </rule>
+		
+	
+
+
+
+
+
+
+
+        <rule id="licht_loopen_ablauf1000">
+				<condition type="and">
+				<condition type="object" id="varlicht1000" value="on" trigger="true" />
+				<condition type="object" id="varlicht_loopen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="set-value" id="A202-OUT2-RW-P" value="100" />
+				<action type="set-value" id="varlicht0100" delay="230ms" value="on" />
+				<action type="set-value" id="varlicht1000" delay="230ms" value="off" />
+                		<action type="set-value" id="A202-OUT2-RW-P" value="1" delay="231ms"/>
+
+            </actionlist>
+        </rule>
+		
+        <rule id="licht_loopen_ablauf0100">
+				<condition type="and">
+				<condition type="object" id="varlicht0100" value="on" trigger="true" />
+				<condition type="object" id="varlicht_loopen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="set-value" id="A202-OUT1-RW-P" value="100" />
+				<action type="set-value" id="varlicht0010" delay="230ms" value="on" />
+				<action type="set-value" id="varlicht0100" delay="230ms" value="off" />
+                		<action type="set-value" id="A202-OUT1-RW-P" value="1" delay="231ms"/>
+            </actionlist>
+        </rule>
+
+        <rule id="licht_loopen_ablauf0010">
+				<condition type="and">
+				<condition type="object" id="varlicht0010" value="on" trigger="true" />
+				<condition type="object" id="varlicht_loopen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="set-value" id="A201-OUT2-RW-P" value="100" />
+				<action type="set-value" id="varlicht0001" delay="230ms" value="on" />
+				<action type="set-value" id="varlicht0010" delay="230ms" value="off" />
+                		<action type="set-value" id="A201-OUT2-RW-P" value="1" delay="231ms"/>
+            </actionlist>
+        </rule>
+
+        <rule id="licht_loopen_ablauf0001">
+				<condition type="and">
+				<condition type="object" id="varlicht0001" value="on" trigger="true" />
+				<condition type="object" id="varlicht_loopen" value="on" trigger="true" />
+				</condition>
+            <actionlist type="if-true">
+                		<action type="set-value" id="A201-OUT1-RW-P" value="100" />
+				<action type="set-value" id="varlicht1000" delay="280ms" value="on" />
+				<action type="set-value" id="varlicht0001" delay="280ms" value="off" />
+                		<action type="set-value" id="A201-OUT1-RW-P" value="1" delay="281ms"/>
+
+            </actionlist>
+        </rule>
+		
+
+
+	
+    </rules>
+    <logging />
+</config>
