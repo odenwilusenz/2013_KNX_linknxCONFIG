@@ -139,7 +139,7 @@
             </actionlist>
         </rule>
 		
-		<!--
+		<!-- miau gwag
         <rule id="lichtloop1">
             <condition type="object" id="lichtloop" value="on" trigger="true" />
             <actionlist>
