@@ -139,7 +139,7 @@
             </actionlist>
         </rule>
 		
-		<!-- miau gwag haalllo vögi
+		<!-- miau gwag haalllo vögi Nachricht?
         <rule id="lichtloop1">
             <condition type="object" id="lichtloop" value="on" trigger="true" />
             <actionlist>
